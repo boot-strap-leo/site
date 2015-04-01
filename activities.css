@@ -1,0 +1,61 @@
+/* 
+ *页头部分的样式
+ */
+#text{
+  font-size: large;
+  font-weight: bold;
+}
+
+#logo{
+	padding: 3px 0;
+}
+
+#search{
+	padding-top: 12px;
+}
+
+#pics{
+  float:left;
+  padding: 20px;
+}
+
+.thumbnail{
+  display: block;
+  padding: 4px;
+  margin-bottom: 3px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.mainhead,
+#body{
+  border-bottom: 2px solid #eeeeee;
+}
+
+
+#firstrow{
+  margin-bottom:40px;
+}
+
+.text-left{
+  text-align:left;
+}
+
+.mainfoot>p{
+  text-align:center;
+}
+
+/*
+#firstrow img{
+  background-image:url(manubg.gif);
+  background-repeat:no-repeat;
+  background-position:0px -30px;
+  height:200px;
+  width:260px;
+}
+*/
