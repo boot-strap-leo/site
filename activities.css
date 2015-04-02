@@ -17,6 +17,8 @@
 #pics{
   float:left;
   padding: 20px;
+  height: :700px;
+  width: 480px;
 }
 
 .thumbnail{
@@ -33,17 +35,26 @@
 }
 
 .mainhead,
-#body{
-  border-bottom: 2px solid #eeeeee;
+#bodyfoot{
+  border-bottom: 4px solid #eeeeee;
 }
 
-
-#firstrow{
-  margin-bottom:40px;
+#bodyfoot div{
+  margin-left: 50px;
 }
+
+.mainbody p{
+  font-size:16px;
+  font-weight: bolder;
+}
+
 
 .text-left{
   text-align:left;
+}
+
+.text-right{
+  float: right;
 }
 
 .mainfoot>p{
